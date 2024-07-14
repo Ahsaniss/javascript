@@ -1,4 +1,4 @@
-let person={
+/*let person={
     name:"ahsan",
     year:"forth_semeter",
     Roll_non:"12312",
@@ -23,3 +23,7 @@ console.log(this.year);
   
   person.setYear("fifth_semeter");
   console.log(person.year); // Output: "fifth_semeter"*/
+  var a=new Date();
+  d=a.getFullYear();
+
+  console.log('date is today' + " "+(d))
